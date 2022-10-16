@@ -3,10 +3,10 @@
 ### Beam & Energies :
 
 Simulation of proton-proton collisions at LHC energies via PYHTIA8 event generator is done and the output is stored in the root file:
--int nEvents = 10000; (can be changed)
--idA = 2212 & idB = 2212 (proton-proton beams)
--eA  = 7000. & eB  = 7000. & eCM  = 7000. (default LHC values)
--HardQCD:all = on
+* int nEvents = 10000; (can be changed)
+* idA = 2212 & idB = 2212 (proton-proton beams)
+* eA  = 7000. & eB  = 7000. & eCM  = 7000. (default LHC values)
+* HardQCD:all = on
 
 1. The Event data (4mom, eta, rap) is stored in eventdata.root and eventdata as a log file
 2. Macro eventgen.cc creates pp collision using Pythia8 libraries, linked with makefile.
