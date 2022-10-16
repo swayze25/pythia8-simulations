@@ -1,4 +1,4 @@
-# pp Collisions via PYTHIA8
+# proton-proton Collisions via PYTHIA8
 
 ## Beam & Energies :
 
